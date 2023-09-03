@@ -1,0 +1,32 @@
+body {
+    background:#c8c0ff;
+    margin:0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+[type = text]{
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+border-radius: 4px;
+width: 320px;
+margin:20px 0 0 15px;
+}
+
+[type = submit]{
+    width: 400px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #8ed3c7 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    margin:10px 0 0 30px;
+}
+[type = submit]:hover {
+    background-position: right center;
+}
