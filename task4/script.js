@@ -1,7 +1,12 @@
 const link = document.querySelector('a');
 
 link.addEventListener('click', function(event){
-    this.textContent = prompt('Введите текст ссылки');
+     let textlink = prompt('Введите текст ссылки');
+     textlink = trim(textlink);
+     if(textlink == ''){
+        textlink = 'Введите текст ссылки';
+     }
+     this.textContent = textlink;
     event.preventDefault();
 })
 
